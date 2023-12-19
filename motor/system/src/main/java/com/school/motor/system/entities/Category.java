@@ -1,10 +1,14 @@
 package com.school.motor.system.entities;
 
+import java.io.Serial;
 import java.sql.Timestamp;
+import com.school.motor.system.annotation.Table;
+@Table("")
 public class Category extends BaseEntity{
-	private long serialVersionUID=1702446595886L;
+	@Serial
+	private final static long serialVersionUID=1702987676298L;
 	private String categoryName;
-	private Integer categoryDel;
+	private Integer categoryDelete;
 	private Timestamp createTime;
 	private Timestamp updateTime;
 	public Integer getId(){
@@ -19,11 +23,11 @@ public class Category extends BaseEntity{
 	public void setCategoryName(String categoryName){
 		this.categoryName=categoryName;
 	}
-	public Integer getCategoryDel(){
-		return this.categoryDel;
+	public Integer getCategoryDelete(){
+		return this.categoryDelete;
 	}
-	public void setCategoryDel(Integer categoryDel){
-		this.categoryDel=categoryDel;
+	public void setCategoryDelete(Integer categoryDelete){
+		this.categoryDelete=categoryDelete;
 	}
 	public Timestamp getCreateTime(){
 		return this.createTime;

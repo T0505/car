@@ -1,8 +1,12 @@
 package com.school.motor.system.entities;
 
+import java.io.Serial;
 import java.sql.Timestamp;
+import com.school.motor.system.annotation.Table;
+@Table("")
 public class Role extends BaseEntity{
-	private long serialVersionUID=1702446595880L;
+	@Serial
+	private final static long serialVersionUID=1702987676330L;
 	private String roleName;
 	private String description;
 	private Timestamp createTime;

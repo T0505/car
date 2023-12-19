@@ -20,7 +20,9 @@ public class SystemApplication implements CommandLineRunner {
     }
     @Override
     public void run(String... args) throws Exception {
-        entity.initialization("system/src/main/java/com/school/motor/system/entities","class_info");
-        entity.generate();
+//        entity.initialization("system/src/main/java/com/school/motor/system/entities",
+//                "category","question","question_key","role");
+//        entity.generate();
     }
 }
+//http://124.93.196.45:10001/

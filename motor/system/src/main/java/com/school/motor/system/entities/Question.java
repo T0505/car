@@ -1,10 +1,12 @@
 package com.school.motor.system.entities;
 
+import java.io.Serial;
 import java.sql.Timestamp;
 import com.school.motor.system.annotation.Table;
 @Table("")
 public class Question extends BaseEntity{
-	private long serialVersionUID=1702804805100L;
+	@Serial
+	private final static long serialVersionUID=1702987676311L;
 	private String questionText;
 	private String optionA;
 	private String optionB;
@@ -15,7 +17,7 @@ public class Question extends BaseEntity{
 	private Integer questionKeyId;
 	private Timestamp createTime;
 	private Timestamp updateTime;
-	private Integer questionDel;
+	private Integer questionDelete;
 	public Integer getId(){
 		return this.id;
 	}
@@ -82,10 +84,10 @@ public class Question extends BaseEntity{
 	public void setUpdateTime(Timestamp updateTime){
 		this.updateTime=updateTime;
 	}
-	public Integer getQuestionDel(){
-		return this.questionDel;
+	public Integer getQuestionDelete(){
+		return this.questionDelete;
 	}
-	public void setQuestionDel(Integer questionDel){
-		this.questionDel=questionDel;
+	public void setQuestionDelete(Integer questionDelete){
+		this.questionDelete=questionDelete;
 	}
 }
