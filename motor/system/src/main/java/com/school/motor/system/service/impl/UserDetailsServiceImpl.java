@@ -1,5 +1,7 @@
 package com.school.motor.system.service.impl;
 
+import com.school.motor.system.entities.Role;
+import com.school.motor.system.service.RoleService;
 import com.school.motor.system.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
@@ -9,11 +11,19 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
+
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 @Service//系统类实现登陆功能
 public class UserDetailsServiceImpl implements UserDetailsService {
     private UserService service;
+    private RoleService role;
+    @Autowired
+    public void setRole(RoleService role) {
+        this.role = role;
+    }
     @Autowired
     public void setService(UserService service) {
         this.service = service;
@@ -25,8 +35,11 @@ public class UserDetailsServiceImpl implements UserDetailsService {
         if (user == null) {
             throw new UsernameNotFoundException(username);
         }
+        Map<String,Object> map = new HashMap<>();
+        map.put("id",user.getRoleId());
+        Role role = this.role.select("role", map).get(0);
         //登陆角色
-        List<GrantedAuthority> authorities = AuthorityUtils.commaSeparatedStringToAuthorityList("role");
+        List<GrantedAuthority> authorities = AuthorityUtils.commaSeparatedStringToAuthorityList(role.getRoleName());
         return new User(user.getUserName(), user.getUserPassword(), authorities);
     }
 }

@@ -16,7 +16,7 @@ public class SystemApplication implements CommandLineRunner {
     private Base entity;
     public static void main(String[] args) {
         SpringApplication.run(SystemApplication.class,args);
-        //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
+        //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
     }
     @Override
     public void run(String... args) throws Exception {
