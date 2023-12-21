@@ -88,4 +88,12 @@ public class StringUtil {
         }
         throw new RuntimeException(c.getSimpleName() + "表标识不能为空");
     }
+    //验证码
+    public static String getCode(int n) {
+        StringBuilder builder = new StringBuilder();
+        for (int i = 0; i < n; i++) {
+            builder.append((int)(Math.random() * 10));
+        }
+        return builder.toString();
+    }
 }

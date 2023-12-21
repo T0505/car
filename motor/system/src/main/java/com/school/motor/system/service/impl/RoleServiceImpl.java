@@ -2,10 +2,11 @@ package com.school.motor.system.service.impl;
 
 import com.school.motor.system.entities.Role;
 import com.school.motor.system.service.RoleService;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Map;
-
+@Service
 public class RoleServiceImpl implements RoleService {
     @Override
     public List<Role> select(String table, Map<String, Object> map, String... columns) {

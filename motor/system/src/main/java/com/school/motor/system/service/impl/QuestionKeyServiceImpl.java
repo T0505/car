@@ -2,10 +2,11 @@ package com.school.motor.system.service.impl;
 
 import com.school.motor.system.entities.QuestionKey;
 import com.school.motor.system.service.QuestionKeyService;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Map;
-
+@Service
 public class QuestionKeyServiceImpl implements QuestionKeyService {
     @Override
     public List<QuestionKey> select(String table, Map<String, Object> map, String... columns) {
