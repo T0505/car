@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ab92d710-0cd4-4dd3-aab6-a92987523c7a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/entities/quote/Topic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/mapper/SysAnswerMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/mapper/SysQuestionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/mapper/SysUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/service/SysAnswerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/service/SysQuestionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/service/SysUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/service/impl/SysAnswerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/service/impl/SysQuestionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/service/impl/SysUserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/system/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/SystemApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/SystemApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/config/DatabaseConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/config/DatabaseConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/controller/QuestionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/controller/SystemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/controller/SystemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/entities/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/entities/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/entities/Category.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/entities/Question.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/entities/QuestionKey.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/entities/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/entities/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/entities/quote/Skeleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/entities/quote/Skeleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/mapper/CategoryMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/mapper/QuestionKeyMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/mapper/QuestionMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/mapper/RoleMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/mapper/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/profile/generate/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/profile/generate/Base.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/service/CategoryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/service/QuestionKeyService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/service/QuestionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/service/RoleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/service/impl/CategoryServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/service/impl/QuestionKeyServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/service/impl/QuestionServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/service/impl/RoleServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/service/impl/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/service/impl/UserDetailsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/main/resources/application.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$USER_HOME$/element/apache-maven-3.9.5" />
+        <option name="userSettingsFile" value="$USER_HOME$/element/apache-maven-3.9.5/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2ZvBgYLvISjrBseFQ5YJGZUm3NA" />
+  <component name="ProjectViewState">
+    <option name="foldersAlwaysOnTop" value="false" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortKey" value="BY_TIME_ASCENDING" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.SystemApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "editor.preferences.completion",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.school.motor.system.service.impl" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="SystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="system" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.school.motor.system.SystemApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.SystemApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-3183f394aec4-abbd5a8d" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ab92d710-0cd4-4dd3-aab6-a92987523c7a" name="Changes" comment="" />
+      <created>1703292784464</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1703292784464</updated>
+      <workItem from="1703292785634" duration="206000" />
+      <workItem from="1703292996803" duration="271000" />
+      <workItem from="1703293293296" duration="80000" />
+      <workItem from="1703293378414" duration="424000" />
+      <workItem from="1703293809901" duration="30000" />
+      <workItem from="1703293845328" duration="108000" />
+      <workItem from="1703293959803" duration="7565000" />
+      <workItem from="1703308265952" duration="31000" />
+      <workItem from="1703308301851" duration="53000" />
+      <workItem from="1703308360436" duration="1252000" />
+      <workItem from="1703310727404" duration="8668000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

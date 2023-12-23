@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+
 /**
  * author T
  */
@@ -20,9 +21,6 @@ public class SystemApplication implements CommandLineRunner {
     }
     @Override
     public void run(String... args) throws Exception {
-//        entity.initialization("system/src/main/java/com/school/motor/system/entities",
-//                "category","question","question_key","role");
-//        entity.generate();
+
     }
 }
-//http://124.93.196.45:10001/

@@ -10,18 +10,14 @@ public class Skeleton {
     private String modifier;
     private Class<?> type;
     private Class<?> returnType;
-
     public Skeleton(String name, String modifier, Class<?> type) {
         this.name = name;
         this.modifier = modifier;
         this.type = type;
     }
-
     public Skeleton() {
     }
-
     private Map<String,Class<?>> parameters;
-
     @Override
     public String toString() {
         return "Skeleton{" +

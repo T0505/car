@@ -74,19 +74,19 @@ public abstract class Base {
                         .toList();
                 if (collect.isEmpty()) {
                     fields.add(new Skeleton(name, "private", c));
+                    Skeleton get = new Skeleton();
+                    get.setReturnType(c);
+                    get.setModifier("public");
+                    get.setName("get" + titleCase(name));
+                    Skeleton s = new Skeleton();
+                    s.setModifier("public");
+                    s.setName("set" + titleCase(name));
+                    Map<String,Class<?>> map = new HashMap<>();
+                    map.put(name,c);
+                    s.setParameters(map);
+                    methods.add(get);
+                    methods.add(s);
                 }
-                Skeleton get = new Skeleton();
-                get.setReturnType(c);
-                get.setModifier("public");
-                get.setName("get" + titleCase(name));
-                Skeleton s = new Skeleton();
-                s.setModifier("public");
-                s.setName("set" + titleCase(name));
-                Map<String,Class<?>> map = new HashMap<>();
-                map.put(name,c);
-                s.setParameters(map);
-                methods.add(get);
-                methods.add(s);
             }
             create(table);
             flush();
