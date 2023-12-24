@@ -6,9 +6,6 @@ import com.school.motor.system.service.SysUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.web.csrf.CsrfToken;
 import org.springframework.web.bind.annotation.*;
-
-import java.sql.Date;
-import java.sql.Timestamp;
 import java.time.LocalDateTime;
 
 @RestController
@@ -19,7 +16,6 @@ public class SystemController {
     public void setUser(SysUserService user) {
         this.user = user;
     }
-
     @PostMapping("/register")
     public Result<?> register(@RequestBody SysUser user) {
         //new Timestamp(System.currentTimeMillis()) //时间戳

@@ -33,6 +33,7 @@
         <elasticsearch.version>8.11.1</elasticsearch.version>
         <pinyin.version>2.5.1</pinyin.version>
         <json.version>2.4</json.version>
+        <core.version>3.5.2</core.version>
     </properties>
     <!--依赖第三方包，子模块需要自引用，统一版本-->
 
@@ -84,6 +85,12 @@
                 <groupId>com.alibaba</groupId>
                 <artifactId>fastjson</artifactId>
                 <version>${fastjson.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.google.zxing</groupId>
+                <artifactId>core</artifactId>
+                <version>${core.version}</version>
             </dependency>
 
             <dependency>

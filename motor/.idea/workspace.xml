@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab92d710-0cd4-4dd3-aab6-a92987523c7a" name="Changes" comment="" />
+    <list default="true" id="ab92d710-0cd4-4dd3-aab6-a92987523c7a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/mapper/SysModelMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/mapper/SysRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/mapper/SysSubjectMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/service/SysModelService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/service/SysRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/service/SysSubjectService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/service/impl/SysModelServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/service/impl/SysRoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/service/impl/SysSubjectServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/utils/QRCodeUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/system/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/SystemApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/SystemApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/controller/SystemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/controller/SystemController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,6 +59,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Maven.motor [install].executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -59,7 +77,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.completion",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -107,7 +125,11 @@
       <workItem from="1703308265952" duration="31000" />
       <workItem from="1703308301851" duration="53000" />
       <workItem from="1703308360436" duration="1252000" />
-      <workItem from="1703310727404" duration="8969000" />
+      <workItem from="1703310727404" duration="14692000" />
+      <workItem from="1703397735704" duration="2712000" />
+      <workItem from="1703400547193" duration="9000" />
+      <workItem from="1703400743856" duration="4000" />
+      <workItem from="1703401549139" duration="1475000" />
     </task>
     <servers />
   </component>
