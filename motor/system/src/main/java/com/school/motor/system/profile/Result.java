@@ -3,7 +3,7 @@ package com.school.motor.system.profile;
 public class Result<T> {
     private final T data;
     private final String message;
-    private int code;
+    private final int code;
     public static Result<?> success(Object o) {
         return new Result<>(o,"success",200);
     }
@@ -27,5 +27,17 @@ public class Result<T> {
         this.data = data;
         this.message = message;
         this.code = code;
+    }
+
+    public T getData() {
+        return data;
+    }
+
+    public String getMessage() {
+        return message;
+    }
+
+    public int getCode() {
+        return code;
     }
 }

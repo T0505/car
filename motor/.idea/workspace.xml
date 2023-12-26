@@ -5,22 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab92d710-0cd4-4dd3-aab6-a92987523c7a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/mapper/SysModelMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/mapper/SysRoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/mapper/SysSubjectMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/service/SysModelService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/service/SysRoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/service/SysSubjectService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/service/impl/SysModelServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/service/impl/SysRoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/service/impl/SysSubjectServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/utils/QRCodeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/controller/QuestionController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/system/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/SystemApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/SystemApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/controller/SystemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/controller/SystemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/mapper/SysModelMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/mapper/SysModelMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/mapper/SysSubjectMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/mapper/SysSubjectMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/mapper/SysUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/mapper/SysUserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/profile/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/profile/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/service/SysModelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/service/SysModelService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/service/SysUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/service/SysUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/service/impl/SysModelServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/service/impl/SysModelServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/service/impl/SysUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/service/impl/SysUserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/service/impl/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/main/java/com/school/motor/system/service/impl/UserDetailsServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +62,7 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.SystemApplication.executor": "Run",
+    "Spring Boot.SystemApplication.executor": "Debug",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -130,6 +126,8 @@
       <workItem from="1703400547193" duration="9000" />
       <workItem from="1703400743856" duration="4000" />
       <workItem from="1703401549139" duration="1475000" />
+      <workItem from="1703419433795" duration="206000" />
+      <workItem from="1703591481738" duration="3239000" />
     </task>
     <servers />
   </component>

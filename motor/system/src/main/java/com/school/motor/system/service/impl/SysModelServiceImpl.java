@@ -35,4 +35,9 @@ public class SysModelServiceImpl implements SysModelService {
     public int update(SysModel sysModel) {
         return model.update(sysModel);
     }
+
+    @Override
+    public int getByTitle(String title) {
+        return model.getByTitle(title);
+    }
 }

@@ -15,7 +15,7 @@ import org.springframework.security.web.authentication.rememberme.PersistentToke
 @Configuration
 @EnableWebSecurity //开启
 public class SecurityConfig {
-    private final String[] matchers = {"/system/csrf","/system/register"};
+    private final String[] matchers = {"/system/csrf","/system/register","/question/get"};
     @Bean
     public SecurityFilterChain getSecurityFilterChain(
             HttpSecurity http, BCryptPasswordEncoder encoder,

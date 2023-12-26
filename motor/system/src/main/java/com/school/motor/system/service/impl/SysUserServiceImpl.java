@@ -34,4 +34,9 @@ public class SysUserServiceImpl implements SysUserService {
     public int update(SysUser sysUser) {
         return user.update(sysUser);
     }
+
+    @Override
+    public SysUser login(String username) {
+        return user.login(username);
+    }
 }
