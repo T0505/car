@@ -25,7 +25,6 @@ public class QuestionController {
     public void setQuestion(SysQuestionService question) {
         this.question = question;
     }
-
     @GetMapping("/get")
     public Result<?> get(int subjectId,String title) {
 
@@ -33,6 +32,7 @@ public class QuestionController {
             int value = model.getByTitle(title);
             Map<String,Object> map = new HashMap<>();
             map.put("model_id",value);
+            map.put("subject_id",subjectId);
             List<SysQuestion> questions = question.select("sys_question", map);
             return Result.success(questions);
         } catch(Exception e) {
