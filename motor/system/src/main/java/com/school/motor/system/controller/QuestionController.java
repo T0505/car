@@ -36,7 +36,7 @@ public class QuestionController {
      * @param modelId 车型分类 例如：C1、C2
      * @return
      */
-    @GetMapping("/get")
+    @GetMapping("/getQuestion")
     public Result<?> get(int subjectId,String modelId) {
 
         try {
