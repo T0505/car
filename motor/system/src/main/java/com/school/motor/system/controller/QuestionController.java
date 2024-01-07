@@ -12,6 +12,10 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ *  【注意】：不穿参数默认就是 *
+ */
+
 @RestController
 @RequestMapping("/question")
 public class QuestionController {
@@ -25,11 +29,18 @@ public class QuestionController {
     public void setQuestion(SysQuestionService question) {
         this.question = question;
     }
+
+    /**
+     * 根据条件查询题库
+     * @param subjectId 科目类型 例如：科一、科二等
+     * @param modelId 车型分类 例如：C1、C2
+     * @return
+     */
     @GetMapping("/get")
-    public Result<?> get(int subjectId,String title) {
+    public Result<?> get(int subjectId,String modelId) {
 
         try {
-            int value = model.getByTitle(title);
+            int value = model.getByTitle(modelId);
             Map<String,Object> map = new HashMap<>();
             map.put("model_id",value);
             map.put("subject_id",subjectId);
@@ -38,6 +49,6 @@ public class QuestionController {
         } catch(Exception e) {
             e.printStackTrace();
         }
-        return Result.error("题库类型" + title + "不存在");
+        return Result.error("题库类型" + modelId + "不存在");
     }
 }
