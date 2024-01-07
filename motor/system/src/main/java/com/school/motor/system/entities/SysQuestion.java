@@ -70,4 +70,19 @@ public class SysQuestion extends BaseEntity{
 	public void setImage(String image){
 		this.image=image;
 	}
+
+	@Override
+	public String toString() {
+		return "SysQuestion{" +
+				"topic='" + topic + '\'' +
+				", optionA='" + optionA + '\'' +
+				", optionB='" + optionB + '\'' +
+				", optionC='" + optionC + '\'' +
+				", optionD='" + optionD + '\'' +
+				", modelId=" + modelId +
+				", subjectId=" + subjectId +
+				", answerId=" + answerId +
+				", image='" + image + '\'' +
+				'}';
+	}
 }

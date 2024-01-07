@@ -49,4 +49,16 @@ public class SysUser extends BaseEntity{
 	public void setStatus(Integer status){
 		this.status=status;
 	}
+
+	@Override
+	public String toString() {
+		return "SysUser{" +
+				"username='" + username + '\'' +
+				", password='" + password + '\'' +
+				", phone='" + phone + '\'' +
+				", address='" + address + '\'' +
+				", roleId=" + roleId +
+				", status=" + status +
+				'}';
+	}
 }

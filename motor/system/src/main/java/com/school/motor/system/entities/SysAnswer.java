@@ -28,4 +28,13 @@ public class SysAnswer extends BaseEntity{
 	public void setVideo(String video){
 		this.video=video;
 	}
+
+	@Override
+	public String toString() {
+		return "SysAnswer{" +
+				"answer='" + answer + '\'' +
+				", explains='" + explains + '\'' +
+				", video='" + video + '\'' +
+				'}';
+	}
 }

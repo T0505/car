@@ -28,4 +28,13 @@ public class SysRole extends BaseEntity{
 	public void setUpdateTime(Timestamp updateTime){
 		this.updateTime=updateTime;
 	}
+
+	@Override
+	public String toString() {
+		return "SysRole{" +
+				"roleName='" + roleName + '\'' +
+				", description='" + description + '\'' +
+				", updateTime=" + updateTime +
+				'}';
+	}
 }
