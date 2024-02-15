@@ -1,0 +1,17 @@
+server:
+  port: 9090
+spring:
+  application:
+    name: system
+#   数据配置
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 20040505
+    url: jdbc:mysql://127.0.0.1:3306/ddxcdb
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+file:
+#  文件上传路径
+  path: system/src/main/resources/

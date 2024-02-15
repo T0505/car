@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <!--唯一标识下标配置，父亲工程-->
+    <groupId>com.school.learn</groupId>
+    <artifactId>motor</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+
+    <!--子模块-->
+    <modules>
+        <module>system</module>
+    </modules>
+
+    <!--公共配置，版本以及编码-->
+    <properties>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <!--apache包版本-->
+        <spring.version>3.2.0</spring.version>
+        <could.version>2022.0.4</could.version>
+        <mybatis.version>3.0.3</mybatis.version>
+        <druid.version>1.2.20</druid.version>
+        <!--alibaba包版本-->
+        <fastjson.version>2.0.42</fastjson.version>
+
+        <poi.version>5.2.4</poi.version>
+        <!--其他包版本-->
+        <elasticsearch.version>8.11.1</elasticsearch.version>
+        <pinyin.version>2.5.1</pinyin.version>
+        <json.version>2.4</json.version>
+        <core.version>3.5.2</core.version>
+    </properties>
+    <!--依赖第三方包，子模块需要自引用，统一版本-->
+
+    <dependencyManagement>
+        <dependencies>
+
+            <dependency>
+                <groupId>net.sf.json-lib</groupId>
+                <artifactId>json-lib</artifactId>
+                <version>${json.version}</version>
+                <classifier>jdk15</classifier>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${could.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>${spring.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.mybatis.spring.boot</groupId>
+                <artifactId>mybatis-spring-boot-starter</artifactId>
+                <version>${mybatis.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>druid-spring-boot-starter</artifactId>
+                <version>${druid.version}</version>
+            </dependency>
+            <!--excel操作包-->
+            <dependency>
+                <groupId>org.apache.poi</groupId>
+                <artifactId>poi-ooxml</artifactId>
+                <version>${poi.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>${fastjson.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.google.zxing</groupId>
+                <artifactId>core</artifactId>
+                <version>${core.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.elasticsearch</groupId>
+                <artifactId>elasticsearch</artifactId>
+                <version>${elasticsearch.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.belerweb</groupId>
+                <artifactId>pinyin4j</artifactId>
+                <version>${pinyin.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+</project>
